@@ -76,7 +76,6 @@ title(' Frequency Response of Butterworth IIR LPF');
 
 
 ## PROGRAM (HPF): 
-
 // Clear Environment
 clear;
 clc;
@@ -118,6 +117,7 @@ plot(w/%pi, abs(Hw));
 xlabel('Normalized Digital Frequency (×π rad/sample)');
 ylabel('Magnitude');
 title('Butterworth Highpass IIR Filter Frequency Response');
+
 
 
 ## OUTPUT (LPF) : 
