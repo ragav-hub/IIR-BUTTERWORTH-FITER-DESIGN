@@ -8,6 +8,7 @@
 PC installed with SCILAB. 
 
 ## PROGRAM (LPF): 
+```
 clc ;  
 
 close ;  
@@ -73,10 +74,10 @@ xlabel(' Normalized Digital Frequency w');
 ylabel('Magnitude '); 
 
 title(' Frequency Response of Butterworth IIR LPF');
-
+```
 
 ## PROGRAM (HPF): 
-
+```
 clc;
 
 close;
@@ -122,7 +123,7 @@ ylabel('Magnitude');
 
 title('Butterworth Highpass IIR Filter Frequency Response');
 
-
+```
 
 ## OUTPUT (LPF) : 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d79c2299-b790-4989-a1de-3ccbb1ebd351" />
@@ -131,4 +132,4 @@ title('Butterworth Highpass IIR Filter Frequency Response');
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b39dd6fb-e546-4fca-9f2a-3a6e0655f0ff" />
 
 ## RESULT: 
-The design of an IIR Butterworth filter using SCILAB is sucessfully completed.
+Thus, the design of an IIR Butterworth filter(LPF/HPF) using SCILAB is sucessfully executed and output is verified.
